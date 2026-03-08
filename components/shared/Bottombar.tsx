@@ -21,7 +21,7 @@ function Bottombar() {
             <Link
               href={link.route}
               key={link.label}
-              className={`bottombar_link ${isActive && "bg-primary-500"}`}
+              className={`bottombar_link ${isActive ? "bg-primary-500 text-on-primary" : "text-light-1"}`}
             >
               <Image
                 src={link.imgURL}
@@ -31,7 +31,7 @@ function Bottombar() {
                 className='object-contain'
               />
 
-              <p className='text-subtle-medium text-light-1 max-sm:hidden'>
+              <p className='text-subtle-medium max-sm:hidden'>
                 {link.label.split(/\s+/)[0]}
               </p>
             </Link>

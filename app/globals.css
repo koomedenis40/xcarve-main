@@ -29,12 +29,12 @@
   }
 
   .community-card_btn {
-    @apply rounded-lg bg-primary-500 px-5 py-1.5 text-small-regular !text-light-1 !important;
+    @apply rounded-lg bg-primary-500 px-5 py-1.5 text-small-regular !text-on-primary !important;
   }
 
   /* thread card  */
   .thread-card_bar {
-    @apply relative mt-2 w-0.5 grow rounded-full bg-neutral-800;
+    @apply relative mt-2 w-0.5 grow rounded-full bg-dark-4;
   }
 
   /* User card */
@@ -47,7 +47,7 @@
   }
 
   .user-card_btn {
-    @apply h-auto min-w-[74px] rounded-lg bg-primary-500 text-[12px] text-light-1 !important;
+    @apply h-auto min-w-[74px] rounded-lg bg-primary-500 text-[12px] text-on-primary !important;
   }
 
   .searchbar {
@@ -103,16 +103,16 @@
   }
 
   .custom-scrollbar::-webkit-scrollbar-track {
-    background: #09090a;
+    background: #F2EFF6;
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #5c5c7b;
+    background: #9D96A8;
     border-radius: 50px;
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #7878a3;
+    background: #78708A;
   }
 }
 
@@ -131,7 +131,7 @@
 
 /* Tab */
 .tab {
-  @apply flex min-h-[50px] flex-1 items-center gap-3 bg-dark-2 text-light-2 data-[state=active]:bg-[#0e0e12] data-[state=active]:text-light-2 !important;
+  @apply flex min-h-[50px] flex-1 items-center gap-3 bg-dark-2 text-light-2 data-[state=active]:bg-white data-[state=active]:text-light-1 data-[state=active]:shadow-sm !important;
 }
 
 .no-focus {
@@ -157,5 +157,5 @@
 }
 
 .comment-form_btn {
-  @apply rounded-3xl bg-primary-500 px-8 py-2 !text-small-regular text-light-1 max-xs:w-full !important;
-}
+    @apply rounded-3xl bg-primary-500 px-8 py-2 !text-small-regular text-on-primary max-xs:w-full !important;
+  }
