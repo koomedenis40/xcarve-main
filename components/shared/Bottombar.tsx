@@ -28,7 +28,7 @@ function Bottombar() {
                 alt={link.label}
                 width={16}
                 height={16}
-                className='object-contain'
+                className={`object-contain ${isActive ? "icon-on-primary" : "icon-on-light"}`}
               />
 
               <p className='text-subtle-medium max-sm:hidden'>

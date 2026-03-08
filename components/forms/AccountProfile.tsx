@@ -129,14 +129,14 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
                 ) : (
                   <Image
                     src='/assets/profile.svg'
-                    alt='profile_icon'
+                    alt='Profile photo'
                     width={24}
                     height={24}
-                    className='object-contain'
+                    className='object-contain icon-on-light'
                   />
                 )}
               </FormLabel>
-              <FormControl className='flex-1 text-base-semibold text-gray-200'>
+              <FormControl className='flex-1 text-base-semibold text-light-2'>
                 <Input
                   type='file'
                   accept='image/*'

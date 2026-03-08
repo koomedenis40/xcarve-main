@@ -96,6 +96,14 @@
     @apply invert-[50%] brightness-200;
   }
 
+  /* Icons designed for dark backgrounds: dark on light, white on primary */
+  .icon-on-light {
+    filter: brightness(0);
+  }
+  .icon-on-primary {
+    filter: brightness(0) invert(1);
+  }
+
   .custom-scrollbar::-webkit-scrollbar {
     width: 3px;
     height: 3px;
@@ -103,16 +111,16 @@
   }
 
   .custom-scrollbar::-webkit-scrollbar-track {
-    background: #F2EFF6;
+    background: #F5F3F8;
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #9D96A8;
+    background: #8E8599;
     border-radius: 50px;
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #78708A;
+    background: #6E6578;
   }
 }
 

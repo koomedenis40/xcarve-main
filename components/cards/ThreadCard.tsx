@@ -73,33 +73,33 @@ function ThreadCard({
               <div className='flex gap-3.5'>
                 <Image
                   src='/assets/heart-gray.svg'
-                  alt='heart'
+                  alt='Like'
                   width={24}
                   height={24}
-                  className='cursor-pointer object-contain'
+                  className='cursor-pointer object-contain icon-on-light'
                 />
                 <Link href={`/thread/${id}`}>
                   <Image
                     src='/assets/reply.svg'
-                    alt='heart'
+                    alt='Reply'
                     width={24}
                     height={24}
-                    className='cursor-pointer object-contain'
+                    className='cursor-pointer object-contain icon-on-light'
                   />
                 </Link>
                 <Image
                   src='/assets/repost.svg'
-                  alt='heart'
+                  alt='Repost'
                   width={24}
                   height={24}
-                  className='cursor-pointer object-contain'
+                  className='cursor-pointer object-contain icon-on-light'
                 />
                 <Image
                   src='/assets/share.svg'
-                  alt='heart'
+                  alt='Share'
                   width={24}
                   height={24}
-                  className='cursor-pointer object-contain'
+                  className='cursor-pointer object-contain icon-on-light'
                 />
               </div>
 
