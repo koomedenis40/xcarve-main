@@ -29,8 +29,12 @@ function Topbar() {
 
         <OrganizationSwitcher
           appearance={{
+            variables: {
+              colorText: "#1A1520",
+              colorTextSecondary: "#4F4858",
+            },
             elements: {
-              organizationSwitcherTrigger: "py-2 px-4 text-light-1",
+              organizationSwitcherTrigger: "py-2 px-4",
             },
           }}
         />
